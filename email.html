@@ -46,19 +46,19 @@
 <div class="containerx">
   <form id="contact" action="https://formspree.io/perfect47wave@gmail.com" method="post">
     <fieldset>
-      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+      <input placeholder="Your name" name="name" type="text" tabindex="1" required autofocus>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Email Address (optional)" type="email" tabindex="2" required>
+      <input placeholder="Your Email Address (optional)" name="email" type="email" tabindex="2" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+      <input placeholder="Your Phone Number" name="tel" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>x
+      <textarea placeholder="Type your message here...." name="message" tabindex="5" required></textarea>
     </fieldset>
     <fieldset>
-      <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-    </fieldset>
-    <fieldset>
-      <button name="submit" type="submit" id="contact-submit" value="Send">Push Email</button>
+      <button type="submit" id="contact-submit">Push Email</button>
     </fieldset>
   </form>
 </div>
